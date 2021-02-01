@@ -1,0 +1,11 @@
+<h1>Unlucky numbers</h1>
+
+<p>Your unlucky numbers for today are:</p>
+
+<ul>
+  <% @muffin.each do |bagel| %>
+    <li>
+      <%= bagel %>
+    </li>
+  <% end %>
+</ul>
